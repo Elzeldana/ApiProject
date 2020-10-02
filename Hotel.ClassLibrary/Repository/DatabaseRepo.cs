@@ -130,7 +130,7 @@ namespace ClassLibrary.Repository
             }
             catch (Exception e)
             {
-                logger.Error("Error  while removing reservation! " + e.Message, e);
+                logger.Error("Error while removing reservation!" + e.Message, e);
                 return false;
             }
         }

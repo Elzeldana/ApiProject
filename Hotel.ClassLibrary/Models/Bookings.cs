@@ -7,13 +7,13 @@ namespace Hotel.ClassLibrary.Models
     public class Bookings
     {
         [JsonProperty("bookingid")]
-        public int booking_ID { get; set; }
+        public int Booking_ID { get; set; }
 
         [JsonProperty("datebooked")]
-        public DateTime booking_date { get; set; }
+        public DateTime Booking_date { get; set; }
 
         [JsonProperty("numberofdays")]
-        public string duration_ofstay { get; set; }
+        public string Duration_ofstay { get; set; }
 
         [JsonProperty("arrivaldate")]
         public DateTime Check_in_date { get; set; }
@@ -22,7 +22,7 @@ namespace Hotel.ClassLibrary.Models
         public DateTime Check_out_date { get; set; }
 
         [JsonProperty("numpersons")]
-            public int Num_persons { get; set; }
+        public int Num_persons { get; set; }
       
         [JsonProperty("guestid")]
         public int Guest_id { get; set; }

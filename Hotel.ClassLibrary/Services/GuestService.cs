@@ -52,7 +52,7 @@ namespace ClassLibrary.Services
             var guestgound = repo.GetGuestByID(id);
 
             if (guestgound == null)
-                throw new ApplicationException("Booking does not exist!");
+                throw new ApplicationException("Guest does not exist!");
             return repo.UpdateGuestContact(id, guest);
 
         }

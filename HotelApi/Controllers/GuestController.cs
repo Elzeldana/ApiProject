@@ -10,7 +10,7 @@ using ClassLibrary.Validations;
 
 namespace HotelApi.Controllers
 {
-    [Authorize(Roles = "Admin")]
+    //[Authorize(Roles = "Admin")]
     public class GuestController : ApiController
     {
         private readonly IGuestService service;
